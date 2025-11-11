@@ -18,9 +18,8 @@ class Connection {
 
         self::$pdo = new PDO($dsn, $user, $pass);
 
-        if(!isset(self::$pdo)) {
-            return self::$pdo;
-        }
+        return self::$pdo;
+
     }
 }
 
