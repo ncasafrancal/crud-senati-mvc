@@ -14,6 +14,8 @@ class UserController {
 
         include __DIR__ . '/../views/listado.php';
 
+        include __DIR__ . '/../views/agregar.php';
+
     }
 
 }
