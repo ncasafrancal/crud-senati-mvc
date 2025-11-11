@@ -8,7 +8,7 @@
 <body>
     <h1>Listado de Usuarios</h1>
 
-    <table border=1>
+    <table class="table">
         <tr>
             <td>Id</td>
             <td>Name</td>
