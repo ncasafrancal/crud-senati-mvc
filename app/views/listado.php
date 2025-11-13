@@ -20,7 +20,7 @@
                 <td><?= $user['id']; ?></td>
                 <td><?= $user['name']; ?></td>
                 <td><?= $user['lastname']; ?></td>
-                <td>Editar | Eliminar</td>
+                <td><a href="app/views/editar.php?id=<?= $user['id']; ?>">Editar</a> | <a href="app/views/eliminar.php?id=<?= $user['id']; ?>">Eliminar</a></td>
             </tr>
         <?php } ?>
     </table>
